@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031C808E1F71FB1B00CDBC57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 031C808D1F71FB1B00CDBC57 /* main.m */; };
+		031C80911F71FB1B00CDBC57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 031C80901F71FB1B00CDBC57 /* AppDelegate.m */; };
+		031C80941F71FB1B00CDBC57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031C80931F71FB1B00CDBC57 /* ViewController.m */; };
+		031C80971F71FB1B00CDBC57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031C80951F71FB1B00CDBC57 /* Main.storyboard */; };
+		031C80991F71FB1B00CDBC57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031C80981F71FB1B00CDBC57 /* Assets.xcassets */; };
+		031C809C1F71FB1B00CDBC57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031C809A1F71FB1B00CDBC57 /* LaunchScreen.storyboard */; };
+		031C80A91F7203DB00CDBC57 /* countdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 031C80A81F7203DB00CDBC57 /* countdownButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		031C80891F71FB1B00CDBC57 /* demo timeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo timeButton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		031C808D1F71FB1B00CDBC57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		031C808F1F71FB1B00CDBC57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		031C80901F71FB1B00CDBC57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		031C80921F71FB1B00CDBC57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		031C80931F71FB1B00CDBC57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		031C80961F71FB1B00CDBC57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		031C80981F71FB1B00CDBC57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		031C809B1F71FB1B00CDBC57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		031C809D1F71FB1B00CDBC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031C80A71F7203DB00CDBC57 /* countdownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = countdownButton.h; sourceTree = "<group>"; };
+		031C80A81F7203DB00CDBC57 /* countdownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = countdownButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		031C80861F71FB1B00CDBC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		031C80801F71FB1B00CDBC57 = {
+			isa = PBXGroup;
+			children = (
+				031C808B1F71FB1B00CDBC57 /* demo timeButton */,
+				031C808A1F71FB1B00CDBC57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		031C808A1F71FB1B00CDBC57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				031C80891F71FB1B00CDBC57 /* demo timeButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		031C808B1F71FB1B00CDBC57 /* demo timeButton */ = {
+			isa = PBXGroup;
+			children = (
+				031C808F1F71FB1B00CDBC57 /* AppDelegate.h */,
+				031C80901F71FB1B00CDBC57 /* AppDelegate.m */,
+				031C80921F71FB1B00CDBC57 /* ViewController.h */,
+				031C80931F71FB1B00CDBC57 /* ViewController.m */,
+				031C80A61F7203DB00CDBC57 /* countdownButton */,
+				031C80951F71FB1B00CDBC57 /* Main.storyboard */,
+				031C80981F71FB1B00CDBC57 /* Assets.xcassets */,
+				031C809A1F71FB1B00CDBC57 /* LaunchScreen.storyboard */,
+				031C809D1F71FB1B00CDBC57 /* Info.plist */,
+				031C808C1F71FB1B00CDBC57 /* Supporting Files */,
+			);
+			path = "demo timeButton";
+			sourceTree = "<group>";
+		};
+		031C808C1F71FB1B00CDBC57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				031C808D1F71FB1B00CDBC57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		031C80A61F7203DB00CDBC57 /* countdownButton */ = {
+			isa = PBXGroup;
+			children = (
+				031C80A71F7203DB00CDBC57 /* countdownButton.h */,
+				031C80A81F7203DB00CDBC57 /* countdownButton.m */,
+			);
+			path = countdownButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		031C80881F71FB1B00CDBC57 /* demo timeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031C80A01F71FB1B00CDBC57 /* Build configuration list for PBXNativeTarget "demo timeButton" */;
+			buildPhases = (
+				031C80851F71FB1B00CDBC57 /* Sources */,
+				031C80861F71FB1B00CDBC57 /* Frameworks */,
+				031C80871F71FB1B00CDBC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "demo timeButton";
+			productName = "demo timeButton";
+			productReference = 031C80891F71FB1B00CDBC57 /* demo timeButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		031C80811F71FB1B00CDBC57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = DingXiangGuo;
+				TargetAttributes = {
+					031C80881F71FB1B00CDBC57 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 23FX3ZNAB9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 031C80841F71FB1B00CDBC57 /* Build configuration list for PBXProject "demo timeButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 031C80801F71FB1B00CDBC57;
+			productRefGroup = 031C808A1F71FB1B00CDBC57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				031C80881F71FB1B00CDBC57 /* demo timeButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		031C80871F71FB1B00CDBC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031C809C1F71FB1B00CDBC57 /* LaunchScreen.storyboard in Resources */,
+				031C80991F71FB1B00CDBC57 /* Assets.xcassets in Resources */,
+				031C80971F71FB1B00CDBC57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031C80851F71FB1B00CDBC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031C80941F71FB1B00CDBC57 /* ViewController.m in Sources */,
+				031C80A91F7203DB00CDBC57 /* countdownButton.m in Sources */,
+				031C80911F71FB1B00CDBC57 /* AppDelegate.m in Sources */,
+				031C808E1F71FB1B00CDBC57 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		031C80951F71FB1B00CDBC57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031C80961F71FB1B00CDBC57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		031C809A1F71FB1B00CDBC57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031C809B1F71FB1B00CDBC57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		031C809E1F71FB1B00CDBC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		031C809F1F71FB1B00CDBC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		031C80A11F71FB1B00CDBC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23FX3ZNAB9;
+				INFOPLIST_FILE = "demo timeButton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dingxiangguo.demo-timeButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		031C80A21F71FB1B00CDBC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23FX3ZNAB9;
+				INFOPLIST_FILE = "demo timeButton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dingxiangguo.demo-timeButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		031C80841F71FB1B00CDBC57 /* Build configuration list for PBXProject "demo timeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031C809E1F71FB1B00CDBC57 /* Debug */,
+				031C809F1F71FB1B00CDBC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		031C80A01F71FB1B00CDBC57 /* Build configuration list for PBXNativeTarget "demo timeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031C80A11F71FB1B00CDBC57 /* Debug */,
+				031C80A21F71FB1B00CDBC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 031C80811F71FB1B00CDBC57 /* Project object */;
+}
